@@ -22,8 +22,8 @@ describe FiguresController do
     expect(page.body).to include('figure[name]')
     expect(page.body).to include('figure[title_ids][]')
     expect(page.body).to include('figure[landmark_ids][]')
-    expect(page.body).to include('landmark[name]')
-    expect(page.body).to include('title[name]')
+    # expect(page.body).to include('landmark[name]')
+    # expect(page.body).to include('title[name]')
   end
 
   it "allows you to create a new figure with a title" do

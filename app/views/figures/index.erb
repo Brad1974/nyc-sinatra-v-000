@@ -1,0 +1,6 @@
+ <% @figure.each do |figures| %>
+     <p><a href="/figures/<%= figures.id %>"><%= figures.name %></a></p>
+     <% figures.landmarks.each do |l| %>
+      <p><%= puts l.name %></p>
+      <%end%>
+  <% end %>
